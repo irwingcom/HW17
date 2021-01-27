@@ -1,0 +1,222 @@
+.nav {
+    display: flex;
+    background-color: #FF0404;
+    padding: 20px;
+    margin: 0;
+    padding: 0;
+  }
+
+.mainicon, .navitem {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.mainicon {
+      width: 55%;
+      color: white;
+  }
+
+.navitem {
+    width: 75%;
+}
+
+.navitem a {
+    color: lightgray;
+    padding: 50px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.herocontainer {
+
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+
+}
+
+
+
+.heroimage {
+    padding-right: 200px;
+    padding-left: 50px;
+    position: relative;
+    opacity: 10%;
+}
+
+
+
+.herotext {
+    text-align: center;
+    margin-left: 250px;
+    height: 600px;
+    width: 550px;
+}
+
+#box1 {
+    background-color: #FF0404;
+    width: 350px;
+    height: 65px;
+}
+
+.aboutme {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.aboutbar {
+    right: 250px;
+    top: 700px;
+    background-color: #FF0404;
+    color: white;
+    display: inline-block;
+    width: 100%;
+}
+
+.abouttitle {
+    margin-left: 600px;
+}
+
+.button {
+    background-color: #F15B5B;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 450px;
+    margin-top: 50px;
+    cursor: pointer;
+    padding: 15px 32px;
+    border: 0px;
+    border-radius: 20px;
+
+}
+
+.aboutsec {
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.workbar {
+    right: 250px;
+    top: 700px;
+    background-color: #FF0404;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    margin-top: 50px;
+    float: right;
+}
+
+.worksec {
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.workbartext {
+    margin-left: 300px;
+}
+
+.tablets {
+    margin-top: 250px;
+    margin-left: 300px;
+}
+
+.subject {
+    text-align: center;
+}
+
+.contactbar {
+    right: 250px;
+    top: 700px;
+    background-color: #FF0404;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.contactbartext {
+    padding-left: 550px;
+    margin-left: 600px;
+}
+
+input[type=text], select, textarea {
+    
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+.container {
+    padding-top: 50px;
+    padding-left: 525px;
+  }
+
+.contactsec {
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.footerbar {
+    background-color: #FF0404;
+    margin-top: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.flexcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+  
+h1 {
+    font-family: 'Spartan', sans-serif;
+    font-size: 64px;
+}
+
+.herop {
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'Spartan', sans-serif;
+}
+
+a {
+    font-family: 'Source Code Pro', monospace;
+}
+
+p {
+    font-family: 'Source Code Pro', monospace;
+    margin-top: 50px;
+    text-align: center;
+    color: #657367;
+}
+
+#fname {
+    font-family: 'Source Code Pro', monospace;
+}
+
+#email {
+    font-family: 'Source Code Pro', monospace;
+}
+
+#subject {
+    font-family: 'Source Code Pro', monospace;
+}
